@@ -10,7 +10,21 @@
 </head>
 
 <body class="bg-dark-subtle">
-
+    <div class="container my-5">
+        <form class="d-flex flex-column" action="/formsubmissions" method="POST">
+            <h1 class="text-center">Form Submission</h1>
+            <div class="form-group">
+                <label for="Email">Email address</label>
+                <input type="email" name="email" class="form-control" id="Email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" name="password" class="form-control" placeholder="Enter your password"
+                    id="Password">
+            </div>
+            <button type="submit" class="btn btn-primary my-2">Submit</button>
+        </form>
+    </div>
 
 </body>
 
